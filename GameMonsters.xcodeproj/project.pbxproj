@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E587C4C2A45DA4E00FC2134 /* MonsterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E587C4B2A45DA4E00FC2134 /* MonsterViewController.swift */; };
+		3E587C4E2A45EAF200FC2134 /* ModelMonster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E587C4D2A45EAF200FC2134 /* ModelMonster.swift */; };
+		3E587C512A460B4C00FC2134 /* UserDefaultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E587C502A460B4C00FC2134 /* UserDefaultModel.swift */; };
+		3E587C552A461DD000FC2134 /* CellMyTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E587C542A461DD000FC2134 /* CellMyTeamViewController.swift */; };
+		3E587C572A461E7C00FC2134 /* MyTeamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E587C562A461E7C00FC2134 /* MyTeamViewController.swift */; };
+		3EA3C0E72A2CBFAA00D100A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3C0E62A2CBFAA00D100A4 /* AppDelegate.swift */; };
+		3EA3C0E92A2CBFAA00D100A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3C0E82A2CBFAA00D100A4 /* SceneDelegate.swift */; };
+		3EA3C0EE2A2CBFAA00D100A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3C0EC2A2CBFAA00D100A4 /* Main.storyboard */; };
+		3EA3C0F12A2CBFAB00D100A4 /* GameMonsters.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3C0EF2A2CBFAA00D100A4 /* GameMonsters.xcdatamodeld */; };
+		3EA3C0F32A2CBFAC00D100A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3C0F22A2CBFAC00D100A4 /* Assets.xcassets */; };
+		3EA3C0F62A2CBFAC00D100A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EA3C0F42A2CBFAC00D100A4 /* LaunchScreen.storyboard */; };
+		3EA3C1012A2CC07200D100A4 /* GeolocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3C1002A2CC07200D100A4 /* GeolocationVC.swift */; };
+		3EA3C1032A2CD06300D100A4 /* AllowGeolocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3C1022A2CD06300D100A4 /* AllowGeolocationVC.swift */; };
+		3EA3C1062A30DC5000D100A4 /* MapMonsterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA3C1052A30DC5000D100A4 /* MapMonsterVC.swift */; };
+		98FE4E48389C36DF8244245F /* Pods_GameMonsters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CC6B1B6347757AA0D085946 /* Pods_GameMonsters.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11C6DC61E49BE9F5A29CED46 /* Pods-GameMonsters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameMonsters.release.xcconfig"; path = "Target Support Files/Pods-GameMonsters/Pods-GameMonsters.release.xcconfig"; sourceTree = "<group>"; };
+		2CC6B1B6347757AA0D085946 /* Pods_GameMonsters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameMonsters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E587C4B2A45DA4E00FC2134 /* MonsterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterViewController.swift; sourceTree = "<group>"; };
+		3E587C4D2A45EAF200FC2134 /* ModelMonster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMonster.swift; sourceTree = "<group>"; };
+		3E587C502A460B4C00FC2134 /* UserDefaultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultModel.swift; sourceTree = "<group>"; };
+		3E587C542A461DD000FC2134 /* CellMyTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellMyTeamViewController.swift; sourceTree = "<group>"; };
+		3E587C562A461E7C00FC2134 /* MyTeamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTeamViewController.swift; sourceTree = "<group>"; };
+		3EA3C0E32A2CBFAA00D100A4 /* GameMonsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameMonsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA3C0E62A2CBFAA00D100A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EA3C0E82A2CBFAA00D100A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3EA3C0ED2A2CBFAA00D100A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EA3C0F02A2CBFAA00D100A4 /* GameMonsters.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GameMonsters.xcdatamodel; sourceTree = "<group>"; };
+		3EA3C0F22A2CBFAC00D100A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EA3C0F52A2CBFAC00D100A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EA3C0F72A2CBFAC00D100A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EA3C1002A2CC07200D100A4 /* GeolocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeolocationVC.swift; sourceTree = "<group>"; };
+		3EA3C1022A2CD06300D100A4 /* AllowGeolocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllowGeolocationVC.swift; sourceTree = "<group>"; };
+		3EA3C1052A30DC5000D100A4 /* MapMonsterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapMonsterVC.swift; sourceTree = "<group>"; };
+		74C5C7C58F1F145F5C9D60C2 /* Pods-GameMonsters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameMonsters.debug.xcconfig"; path = "Target Support Files/Pods-GameMonsters/Pods-GameMonsters.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EA3C0E02A2CBFAA00D100A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FE4E48389C36DF8244245F /* Pods_GameMonsters.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1279F118B42E7EBE27146058 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74C5C7C58F1F145F5C9D60C2 /* Pods-GameMonsters.debug.xcconfig */,
+				11C6DC61E49BE9F5A29CED46 /* Pods-GameMonsters.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3E587C4F2A4602D900FC2134 /* MyteamScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3E587C542A461DD000FC2134 /* CellMyTeamViewController.swift */,
+				3E587C562A461E7C00FC2134 /* MyTeamViewController.swift */,
+			);
+			path = MyteamScreen;
+			sourceTree = "<group>";
+		};
+		3E587C522A460B7600FC2134 /* UserDefaultModel */ = {
+			isa = PBXGroup;
+			children = (
+				3E587C502A460B4C00FC2134 /* UserDefaultModel.swift */,
+			);
+			path = UserDefaultModel;
+			sourceTree = "<group>";
+		};
+		3EA3C0DA2A2CBFAA00D100A4 = {
+			isa = PBXGroup;
+			children = (
+				3EA3C0E52A2CBFAA00D100A4 /* GameMonsters */,
+				3EA3C0E42A2CBFAA00D100A4 /* Products */,
+				1279F118B42E7EBE27146058 /* Pods */,
+				A911B1FB331F44CB1D5888D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3EA3C0E42A2CBFAA00D100A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3C0E32A2CBFAA00D100A4 /* GameMonsters.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EA3C0E52A2CBFAA00D100A4 /* GameMonsters */ = {
+			isa = PBXGroup;
+			children = (
+				3E587C522A460B7600FC2134 /* UserDefaultModel */,
+				3E587C4F2A4602D900FC2134 /* MyteamScreen */,
+				3EA3C1042A30DBE600D100A4 /* MonsterScreen */,
+				3EA3C0FF2A2CC04900D100A4 /* MapYndMonstrScreen */,
+				3EA3C0FE2A2CC02C00D100A4 /* SecondScreen */,
+				3EA3C0FD2A2CBFEC00D100A4 /* FirstScreen */,
+				3EA3C0E62A2CBFAA00D100A4 /* AppDelegate.swift */,
+				3EA3C0E82A2CBFAA00D100A4 /* SceneDelegate.swift */,
+				3EA3C0EC2A2CBFAA00D100A4 /* Main.storyboard */,
+				3EA3C0F22A2CBFAC00D100A4 /* Assets.xcassets */,
+				3EA3C0F42A2CBFAC00D100A4 /* LaunchScreen.storyboard */,
+				3EA3C0F72A2CBFAC00D100A4 /* Info.plist */,
+				3EA3C0EF2A2CBFAA00D100A4 /* GameMonsters.xcdatamodeld */,
+			);
+			path = GameMonsters;
+			sourceTree = "<group>";
+		};
+		3EA3C0FD2A2CBFEC00D100A4 /* FirstScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3C1002A2CC07200D100A4 /* GeolocationVC.swift */,
+			);
+			path = FirstScreen;
+			sourceTree = "<group>";
+		};
+		3EA3C0FE2A2CC02C00D100A4 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3C1022A2CD06300D100A4 /* AllowGeolocationVC.swift */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+		3EA3C0FF2A2CC04900D100A4 /* MapYndMonstrScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3EA3C1052A30DC5000D100A4 /* MapMonsterVC.swift */,
+				3E587C4D2A45EAF200FC2134 /* ModelMonster.swift */,
+			);
+			path = MapYndMonstrScreen;
+			sourceTree = "<group>";
+		};
+		3EA3C1042A30DBE600D100A4 /* MonsterScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3E587C4B2A45DA4E00FC2134 /* MonsterViewController.swift */,
+			);
+			path = MonsterScreen;
+			sourceTree = "<group>";
+		};
+		A911B1FB331F44CB1D5888D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CC6B1B6347757AA0D085946 /* Pods_GameMonsters.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EA3C0E22A2CBFAA00D100A4 /* GameMonsters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EA3C0FA2A2CBFAC00D100A4 /* Build configuration list for PBXNativeTarget "GameMonsters" */;
+			buildPhases = (
+				5316DFE0FFADCEDF9F9CEEFC /* [CP] Check Pods Manifest.lock */,
+				3EA3C0DF2A2CBFAA00D100A4 /* Sources */,
+				3EA3C0E02A2CBFAA00D100A4 /* Frameworks */,
+				3EA3C0E12A2CBFAA00D100A4 /* Resources */,
+				C9F2F44337C666CED8E0113F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameMonsters;
+			productName = GameMonsters;
+			productReference = 3EA3C0E32A2CBFAA00D100A4 /* GameMonsters.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EA3C0DB2A2CBFAA00D100A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3EA3C0E22A2CBFAA00D100A4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 3EA3C0DE2A2CBFAA00D100A4 /* Build configuration list for PBXProject "GameMonsters" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EA3C0DA2A2CBFAA00D100A4;
+			productRefGroup = 3EA3C0E42A2CBFAA00D100A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EA3C0E22A2CBFAA00D100A4 /* GameMonsters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EA3C0E12A2CBFAA00D100A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA3C0F62A2CBFAC00D100A4 /* LaunchScreen.storyboard in Resources */,
+				3EA3C0F32A2CBFAC00D100A4 /* Assets.xcassets in Resources */,
+				3EA3C0EE2A2CBFAA00D100A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5316DFE0FFADCEDF9F9CEEFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameMonsters-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9F2F44337C666CED8E0113F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameMonsters/Pods-GameMonsters-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GameMonsters/Pods-GameMonsters-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GameMonsters/Pods-GameMonsters-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EA3C0DF2A2CBFAA00D100A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EA3C1062A30DC5000D100A4 /* MapMonsterVC.swift in Sources */,
+				3EA3C0E72A2CBFAA00D100A4 /* AppDelegate.swift in Sources */,
+				3EA3C0F12A2CBFAB00D100A4 /* GameMonsters.xcdatamodeld in Sources */,
+				3E587C512A460B4C00FC2134 /* UserDefaultModel.swift in Sources */,
+				3E587C4C2A45DA4E00FC2134 /* MonsterViewController.swift in Sources */,
+				3E587C552A461DD000FC2134 /* CellMyTeamViewController.swift in Sources */,
+				3EA3C1032A2CD06300D100A4 /* AllowGeolocationVC.swift in Sources */,
+				3EA3C1012A2CC07200D100A4 /* GeolocationVC.swift in Sources */,
+				3E587C4E2A45EAF200FC2134 /* ModelMonster.swift in Sources */,
+				3E587C572A461E7C00FC2134 /* MyTeamViewController.swift in Sources */,
+				3EA3C0E92A2CBFAA00D100A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EA3C0EC2A2CBFAA00D100A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EA3C0ED2A2CBFAA00D100A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EA3C0F42A2CBFAC00D100A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EA3C0F52A2CBFAC00D100A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EA3C0F82A2CBFAC00D100A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3EA3C0F92A2CBFAC00D100A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EA3C0FB2A2CBFAC00D100A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74C5C7C58F1F145F5C9D60C2 /* Pods-GameMonsters.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GameMonsters/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nov.GameMonsters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EA3C0FC2A2CBFAC00D100A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C6DC61E49BE9F5A29CED46 /* Pods-GameMonsters.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GameMonsters/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nov.GameMonsters;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EA3C0DE2A2CBFAA00D100A4 /* Build configuration list for PBXProject "GameMonsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA3C0F82A2CBFAC00D100A4 /* Debug */,
+				3EA3C0F92A2CBFAC00D100A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EA3C0FA2A2CBFAC00D100A4 /* Build configuration list for PBXNativeTarget "GameMonsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA3C0FB2A2CBFAC00D100A4 /* Debug */,
+				3EA3C0FC2A2CBFAC00D100A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3EA3C0EF2A2CBFAA00D100A4 /* GameMonsters.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3EA3C0F02A2CBFAA00D100A4 /* GameMonsters.xcdatamodel */,
+			);
+			currentVersion = 3EA3C0F02A2CBFAA00D100A4 /* GameMonsters.xcdatamodel */;
+			path = GameMonsters.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3EA3C0DB2A2CBFAA00D100A4 /* Project object */;
+}
